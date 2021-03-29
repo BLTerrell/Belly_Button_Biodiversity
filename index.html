@@ -7,19 +7,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-xs-18 col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-xs-3 col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -32,16 +34,21 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-xs-8 col-md-5">
         <div id="bar"></div>
+        <p>A bar chart displaying the top 10 bacteria cultures found in the sample. The highest value at is at the top.
+        </p>
       </div>
-      <div class="col-md-5">
+      <div class="col-xs-7 col-md-5">
         <div id="gauge"></div>
+        <p>A visualization to help the viewer understand how often a Test Subject washes their belly button.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-18 col-md-12">
         <div id="bubble"></div>
+        <p>A bubble chart to help the viewer comprehend how many cultures came from a sample. The larger values are
+          larger bubbles found higher on the y-axis.</p>
       </div>
     </div>
   </div>
